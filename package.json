@@ -1,0 +1,19 @@
+{
+  "name": "wallet_console_client",
+  "version": "0.0.1",
+  "description": "",
+  "license": "ISC",
+  "author": "mepecbe",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@mepecbe/budgetbakers-wallet-api": "^0.0.3",
+    "@napi-rs/keyring": "^2.1.0",
+    "@types/blessed": "^0.1.27",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0"
+  }
+}
